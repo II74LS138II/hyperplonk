@@ -4,11 +4,11 @@
 // You should have received a copy of the MIT License
 // along with the HyperPlonk library. If not, see <https://mit-license.org/>.
 
-mod errors;
-mod multilinear_polynomial;
-mod univariate_polynomial;
-mod util;
-mod virtual_polynomial;
+pub mod errors;
+pub mod multilinear_polynomial;
+pub mod univariate_polynomial;
+pub mod util;
+pub mod virtual_polynomial;
 
 pub use errors::ArithErrors;
 pub use multilinear_polynomial::{
