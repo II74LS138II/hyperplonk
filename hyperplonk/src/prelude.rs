@@ -4,4 +4,11 @@
 // You should have received a copy of the MIT License
 // along with the HyperPlonk library. If not, see <https://mit-license.org/>.
 
-pub use crate::*;
+pub use crate::custom_gate;
+pub use crate::errors;
+pub use crate::mock;
+pub use crate::selectors;
+pub use crate::snarks;
+pub use crate::structs;
+pub use crate::utils;
+pub use crate::witness;
