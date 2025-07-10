@@ -5,10 +5,10 @@
 // along with the HyperPlonk library. If not, see <https://mit-license.org/>.
 
 pub use crate::custom_gate;
-pub use crate::errors;
+pub use crate::errors::{*,HyperPlonkErrors};
 pub use crate::mock;
 pub use crate::selectors;
-pub use crate::snarks;
+pub use crate::snark;
 pub use crate::structs;
 pub use crate::utils;
 pub use crate::witness;
